@@ -61,7 +61,7 @@ WARNING : RAS Dial error code: 703
 ````
 </details>
 
-Disconnect from the target VPN (and re-issue the command if this was just created). The script will add routes to the subnets enumerated in the command, connect to the remote server and display the applicable routing table. The routes are attached to the VPN connection, not to the gateway IP of the remote server, 192.168.63.241/32 in this case:
+Disconnect from the target VPN (and re-issue the command if this was just created). The script will add routes to the subnets enumerated in the command, connect to the remote server and display the applicable routing table. The routes are attached to the VPN connection, not to the gateway IP of the remote server, 192.168.63.241/32 in the following example:
 
 ````
 
